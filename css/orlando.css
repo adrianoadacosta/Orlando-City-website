@@ -209,9 +209,7 @@ header #logotipo{
 }
 
 #news hr{
-    border: #fd3092 5px solid;
-    border-color: #fd3092;
-    background-color: #fd3092;
+    border: #fd3092 8px solid;
     width: 200px;
     margin: 0 auto;
 }
@@ -254,3 +252,52 @@ header #logotipo{
     font-size: 24px;
     display: block;
 }
+
+#call-to-action{
+    text-align: center;
+    margin-top: 105px;
+}
+
+#call-to-action h2{
+    color: #5e2799;
+    font-family: 'OpenSans-Light';
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#call-to-action hr{
+    border: #fd3092 solid 8px;
+    margin: 0 auto;
+}
+
+#call-to-action p{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: #656565;
+}
+
+#call-to-action .btn{
+    line-height: 34px;
+    min-width: 164px;
+    height: 44px;
+    border-radius: 0;
+}
+
+#call-to-action .btn-primary{
+    color: #fff;
+    background-color: #5e299a ;
+    border-color: #5e299a;   
+}
+
+#call-to-action .btn-secondary{
+    color: #000;
+    background-color: #fde192 ;
+    border-color: #fde192;
+}
+
+#call-to-action .row-max-400{
+    margin: 0 auto;
+    max-width: 400px;
+}
+
