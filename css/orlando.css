@@ -313,7 +313,7 @@ footer .row{
 }
 
 footer .row p{
-    line-height: 60px;
+    line-height: 55px;
     margin-bottom: 0;
 }
 
@@ -326,8 +326,6 @@ footer .row-cinza-escuro{
     height: 60px;
     background-color: #11171d;
     border-top: #242d37 1px solid;
-    position: absolute;
-    display: block
 }
 
 footer .text-roxo{
