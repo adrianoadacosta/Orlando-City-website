@@ -10,6 +10,11 @@
     font-size: 1em;
 }
 
+html, body{
+    overflow-x: hidden !important;
+    height: auto; 
+}
+
 header{
     width: 100%;
     height: 150px;
@@ -101,10 +106,6 @@ header .header-black li.club-21 {
 }
 header .header-black li.club-22 {
 	background-position: -1000px 0px;
-}
-
-html, body{
-    overflow-x: hidden !important; 
 }
 
 header .header-black li a{
@@ -301,3 +302,137 @@ header #logotipo{
     max-width: 400px;
 }
 
+footer{
+    margin-top: 110px;
+}
+
+footer .row{
+    width: 100%;
+    margin-left: 0;
+    margin: 0;
+}
+
+footer .row p{
+    line-height: 60px;
+    margin-bottom: 0;
+}
+
+footer .row-cinza-claro{
+    height: 200px;
+    background-color: #171f26;
+}
+
+footer .row-cinza-escuro{
+    height: 60px;
+    background-color: #11171d;
+    border-top: #242d37 1px solid;
+    position: absolute;
+    display: block
+}
+
+footer .text-roxo{
+    color: #623291;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-size: 14px;
+    float: right;
+    margin-bottom: 0;
+}
+
+footer .float-left{
+    color: #666;
+    font-family: 'OpenSans';
+    font-size: 14px;
+    float: left;
+}
+
+footer .logotipo{
+    margin-top: 10px;
+}
+
+footer .col-popular-post,
+footer .col-links,
+footer .col-get-in-touch{
+    margin-top: 40px;
+}
+
+footer .row-cols h4{
+    color: #fff;
+    font-family: 'OpenSans';
+    font-size: 16px;
+    padding-bottom: 17px;
+    border-bottom: #242d37 1px solid;
+}
+
+footer .row-cols h5{
+    color: #666;
+    font-family: Arial;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+footer .row-cols time{
+    color: #fde092;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+footer .col-links fa{
+    margin: 0 10px;
+}
+
+footer .col-links a,
+footer .col-get-in-touch a{
+    color: #fff;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+footer .col-get-in-touch address{
+    color: #666;
+    font-family: Arial;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+footer .col-get-in-touch address span{
+    display: inline-block;
+}
+
+footer .col-get-in-touch address i{
+    position: relative;
+    top: -14px;
+}
+
+footer .col-get-in-touch i{
+    color: #9b9b9b;
+    font-size: 20px;
+    margin: 0 6px;
+}
+
+footer .col-get-in-touch p{
+    line-height: 20px;
+}
+
+footer .list-socials{
+    margin-top: 10px;
+}
+
+footer .list-socials li{
+    display: inline-block;
+}
+
+footer .list-socials a{
+    display: block;
+    border: #9b9b9b 1px solid;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+footer .list-socials i{
+    font-size: 16px;
+    margin: 5px auto;
+}
