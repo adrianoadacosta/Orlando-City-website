@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="lib/OwlCarousel2/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="lib/OwlCarousel2/dist/assets/owl.theme.default.css">
     <link rel="stylesheet" href="css/orlando.css" />
+    <link rel="stylesheet" href="css/orlando-mobile.css" />
     <script
       src="https://kit.fontawesome.com/030ed2e067.js"
       crossorigin="anonymous"></script>
@@ -16,12 +17,31 @@
     <title>Orlando City</title>
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header> <!--menu mobile-->
+
+      <div id="menu-mobile-mask" class="d-sm-none"></div>
+
+      <div id="menu-mobile" class="d-sm-none"> 
+        <ul class="list-unstyled">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="#">Tickets</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Schedule</a></li>
+        </ul>
+        <div class="bar-close">
+          <button type="button" class="btn btn-close"><i class="fa fa-close"></i></button>
+        </div>
+        
+      </div>
+      <div class="container container-logo">
         <img id="logotipo" src="img/orlando-logo.png" alt="Logotipo" />
       </div>
       <div class="header-black">
         <div class="container">
+          <input type="search" id="input-search-mobile" class="d-sm-none" placeholder="search...">
+          <button id="btn-bars" type="button"><i class="fa fa-bars"></i></button>
+          <button id="btn-search" type="button"><i class="fa fa-search"></i></button>
           <ul class="float-end">
             <li class="club-01"><a href="#"></a></li>
             <li class="club-02"><a href="#"></a></li>
@@ -111,12 +131,12 @@
         <div class="container"></div>
 
         <div class="row">
-          <div class="col-md-2 text-center">
+          <div class="col-md-2 text-center d-none d-md-block">
             <img class="logotipo" src="img/orlando-logo.png" alt="Logotipo" />
           </div>
           <div class="col-md-10">
             <div class="row row-cols">
-              <div class="col-md-4 col-popular-post">
+              <div class="col-md-4 col-popular-post d-none d-md-block">
                   <h4>POPULAR POSTS</h4>
                   <ul class="list-unstyled">
                     <li>
@@ -129,7 +149,7 @@
                     </li>
                   </ul>
               </div>
-              <div class="col-md-4 col-links">
+              <div class="col-md-4 col-links d-none d-md-block">
                 <h4>LINKS</h4>
                 <ul class="list-unstyled">
                   <li><a href="#"><i class="fa fa-angle-right"></i>Tickets</a></li>
@@ -138,33 +158,46 @@
                   </ul>
                 </div>
               <div class="col-md-4 col-get-in-touch">
-                 <h4>GET IN TOUCH</h4> 
-                 <address>
+                 <h4 class="d-none d-md-block">GET IN TOUCH</h4> 
+                 <address class="d-none d-md-block">
                   <i class="fa fa-map-marker"></i> <span>618 E. South Street, suite 510 <br/>
                   Orlando, FL 32801</span>
                  </address>
-                 <p><a href="tel: 1855ORLCITY"><i class="fa fa-phone"></i>1.855.ORL.CITY</a></p>
+                 <p class="d-none d-md-block"><a href="tel: 1855ORLCITY"><i class="fa fa-phone"></i>1.855.ORL.CITY</a></p>
+                 
+                 <div class="row-fluid d-sm-none">
+                  <div class="col-lg-6">
+                    <a href="#" class="btn btn-footer"><i class="fa fa-map-marker"></i>Location</a>
+                  </div> 
+                  <div class="col-lg-6"> 
+                    <a href="#" class="btn btn-footer"><i class="fa fa-phone"></i>Call</a>
+                  </div>  
+                 </div>  
+                 
                  <ul class="list-unstyled list-socials">
-                  <li>
-                    <a href="#" target="_parent"><i class="fa-brands fa-facebook"></i></a>
-                  </li>
-                  <li>
-                    <a href="#" target="_parent"><i class="fa-brands fa-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#" target="_parent"><i class="fa-brands fa-instagram"></i></a>
-                  </li>
-                  <li>
-                     <a href="#" target="_parent"><i class="fa-brands fa-pinterest-p"></i></a>
+                    <li>
+                      <a href="#" target="_parent"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#" target="_parent"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#" target="_parent"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#" target="_parent"><i class="fa-brands fa-pinterest-p"></i></a>
+                    </li>
+                    <li class="d-sm-none">
+                      <a href="#" id="page-up" target="_parent"><i class="fa-solid fa-chevron-up"></i></a>
                   </li>
                  </ul>
-              </div>
+               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="row row-cinza-escuro">
-        <div class="container">
+        <div class="container copyright-mobile">
           <p class="float-left">Copyright &copy; Orlando City Soccer 2023. All rights reserved.</p>
           <p class="float-right text-roxo">Created by Adriano Costa in Udemy</p>
         </div>

@@ -453,10 +453,19 @@ footer .list-socials i{
     margin: 5px auto;
 }
 
+#btn-bars, #btn-search,
+#btn-news-next, #btn-news-prev{
+    display: none;
+}
+
+#btn-footer{
+    display: none;
+}
+
 /*-------------css utilizado no pagina videos */
 video{
-    width: 400px;
-    height: 400px;
+    width: 60%;
+    margin-top: 20px;
 }
 
 #carousel-video{

@@ -24,6 +24,37 @@ $(document).ready(function(){
           },
        },
      });
+
+     var owl = $('.owl-carousel');
+     owl.owlCarousel();
+
+     $('#btn-news-prev').click(function() {
+         owl.trigger('prev.owl.carousel');
+     })
+
+     $('#btn-news-next').click(function() {
+         owl.trigger('next.owl.carousel');
+     });
+
+     $("#page-up").on("click", function(event){
+        $("body").animate({
+          scrollTop:0
+        }, 1000);
+        event.preventDefault();
+     });
+
+     $("#btn-bars").on("click", function(){
+      $("header").toggleClass("open-menu");
+     });
+
+     $("#menu-mobile-mask, .btn-close").on("click", function(){
+      $("header").removeClass("open-menu");
+     });
+
+     $("#btn-search").on("click", function(){
+      $("header").toggleClass("open-search");
+      $("#input-search-mobile").focus();
+     });
   });
 
 
