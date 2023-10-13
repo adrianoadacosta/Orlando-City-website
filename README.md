@@ -8,15 +8,15 @@ Trabalho com imagens, áudio, vídeo e boas práticas.
 
 ## Projeto do site para desktop
 
-![Projeto do site para desktop](https://github.com/adrianoadacosta/assets-para-README/blob/main/asset/Orlando_City_projeto/Orlando-City-pc.png)
+<img src="https://github.com/adrianoadacosta/Orlando-City-website/blob/main/Orlando%2BCity.fw.png" width="1500" height="1500">
 
 ## Modelo para mobile
 
-![Modelo para mobile](https://github.com/adrianoadacosta/assets-para-README/blob/main/asset/Orlando_City_projeto/Orlando-City-mobile.png)
+<img src="https://github.com/adrianoadacosta/Orlando-City-website/blob/main/Orlando%2BCity%2BMenu.mobile.fw.png" >
 
 ## Modelo menu mobile
 
-![Modelo menu mobile](https://github.com/adrianoadacosta/assets-para-README/blob/main/asset/Orlando_City_projeto/Orlando-City-menu-%20mobile.png)
+<img src="https://github.com/adrianoadacosta/Orlando-City-website/blob/main/Orlando%2BCity.mobile.fw.png" >
 
 # Tecnologias utilizadas
 - HTML5
